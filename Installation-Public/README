@@ -1,0 +1,101 @@
+ ** Copyright (C) 2011 The authors @ http://code.google.com/p/jsuml2
+ **
+ ** This program is free software: you can redistribute it and/or modify
+ ** it under the terms of the GNU General Public License as published by
+ ** the Free Software Foundation, either version 3 of the License, or
+ ** (at your option) any later version.
+ **
+ ** This program is distributed in the hope that it will be useful,
+ ** but WITHOUT ANY WARRANTY; without even the implied warranty of
+ ** MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ ** GNU General Public License for more details.
+ **
+ ** You should have received a copy of the GNU General Public License
+ ** along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ ** ------------------------------------------------------------------------
+
+ 
+IMPORTANT NOTE (from the authors):
+----------------------------------
+Notice that we freely but gladly share our effort with you, so please send us any modification or addition to the library code. We would also appreciate if you report any tool or website that you made using this library (or part of it). This will cost you only a very short time, but would help us to exchange our experiences and improve our library in the future. 
+Enjoy the library! 
+
+
+NOTES ON THE DISTRIBUTION
+-------------------------
+- The jsUML2 library is provided without any additional support.
+- The editor is just a demo application. UML constraints and semantics are not implemented (it would depend on the programmer and the specific domain under construction). It can be used for you to learn about what jsUML2 can do. Look at the programmer's guide and code for further details and additional features.
+
+
+CONTACT INFO
+------------
+Contact us: 
+http://www.jrromero.net
+
+
+WHAT'S NEW
+----------
+003 - Oct 2012
+	. New elements: UMLGeneralizationSet, UMLNAssociation, datatypes, navegability on associations
+	. New styles for fonts, lines and shapes.
+	. Code improvements: method deleted() renamed to remove(), and others.
+	. The programmer's guide (003/Spanish draft), available from http://www.jrromero.net/tools/jsUML2
+	
+
+INSTALATION
+-----------
+If you want to build the code, you may need the following tools:
+
+-SPROCKETIZE-
+This tool serves to solve the existing dependences among the different javascript files.
+
+Sprocketize can be reached from 
+http://getsprockets.org
+
+Run the following command to download:
+"gem --install remote sprockets"
+
+Notice that Gem Ruby needs to be installed.
+
+
+-YUI COMPRESSOR-
+Yui Compressor is a tool from the Yahoo Javascript API that help us to compress the 
+javascript code and, in consequence, it can significantly reduce the size of these files.
+
+Further information about Yui Compressor is available from  
+http://developer.yahoo.com/yui/compressor/
+
+or can be downloaded at
+http://yuilibrary.com/downloads/#yuicompressor
+
+YUICompressor 2.4.2 is included in this package, named yuicompressor.jar. All you need to 
+run it is to ensure that the Java VM (JRE) is properly installed in your system.
+
+After compressing the code, please notice that we provide this software according to the 
+GPL3 license, i.e. you are requested to include the following code at the beginning of 
+every file:
+
+ **  Copyright (C) 2011 The authors @ http://code.google.com/p/jsuml2
+ **
+ **    This program is free software: you can redistribute it and/or modify
+ **    it under the terms of the GNU General Public License as published by
+ **    the Free Software Foundation, either version 3 of the License, or
+ **    (at your option) any later version.
+ **
+ **    This program is distributed in the hope that it will be useful,
+ **    but WITHOUT ANY WARRANTY; without even the implied warranty of
+ **    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ **    GNU General Public License for more details.
+ **
+ **    You should have received a copy of the GNU General Public License
+ **    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+All the compression process can be automatically done by running the following script:
+./make.sh
+
+The jsUML2 library team
+http://code.google.com/p/jsuml2
+Enjoy the editor!
+http://www.jrromero.net/tools/jsUML2
+
+(C) The authors, 2012
